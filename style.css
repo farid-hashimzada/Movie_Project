@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1196px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Header start*/
+
+.header {
+    background-image: url('./assets/MoviesBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 49px;
+}
+
+.nav {
+    display: flex;
+    width: 252px;
+    padding: 15px 31px 11px 187px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.16);
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    list-style: none;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.header-left h1 {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 25.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.language p {
+    color: #FFF;
+    text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.language i {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right p:nth-child(1) {
+    display: flex;
+    width: 137px;
+    height: 43px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: -2px -2px 120px 0px rgba(255, 255, 255, 0.02) inset;
+    backdrop-filter: blur(5px);
+    color: #FFF;
+    text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.header-right p:nth-child(2) {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.16);
+    color: #FFF;
+    text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99px;
+    height: 43px;
+    cursor: pointer;
+}
+
+
+.header-right .circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    border-radius: 12.5px;
+    background: #E24D4D;
+    box-shadow: -1px 1px 4px 0px rgba(248, 0, 0, 0.40);
+    margin-left: 20px;
+}
+
+/*Header end*/
+
+/*Main section start*/
+
+.main {
+    background: #1F1F1F;
+    padding-top: 50px;
+    box-shadow: 10px 10px 10px #1F1F1F;
+}
+
+.first-movies .item img {
+    width: 297px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.first-movies .owl-carousel .item h4 {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.second-movies .item img {
+    width: 297px;
+    height: 170px;
+    object-fit: cover;
+    /* position: relative; */
+}
+
+.second-movies .item h4 {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.owl-carousel .owl-nav {
+    height: 20px;
+    position: relative;
+    bottom: 180px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
+
+.owl-carousel .owl-nav .owl-prev span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 50%;
+    object-fit: contain;
+    width: 60px;
+    height: 60px;
+}
+
+.owl-carousel .owl-nav .owl-next span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 50%;
+    object-fit: contain;
+    width: 60px;
+    height: 60px;
+}
+
+/*Main section end*/
