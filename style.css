@@ -35,6 +35,7 @@
 }
 
 .nav {
+    position: relative;
     display: flex;
     width: 252px;
     padding: 15px 31px 11px 187px;
@@ -146,6 +147,46 @@
     margin-left: 20px;
 }
 
+/*language drabdown start*/
+
+
+.language-drabdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    border-radius: 6.977px;
+    background: rgba(255, 255, 255, 0.16);
+    display: none;
+    transition: .5s;
+    width: 60px;
+}
+
+.language-drabdown p {
+    color: #FFF;
+    text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    transition: .3s;
+    padding: 3px;
+}
+
+.language-drabdown p:hover  {
+    background-color: rgb(153, 151, 151);
+    color: #FFF;
+    border-radius: 5px;
+}
+
+
+/*language drabdown end*/
+
 /*Header end*/
 
 /*Main section start*/
@@ -175,7 +216,6 @@
     width: 297px;
     height: 170px;
     object-fit: cover;
-    /* position: relative; */
 }
 
 .second-movies .item h4 {
@@ -190,34 +230,31 @@
 .owl-carousel .owl-nav {
     height: 20px;
     position: relative;
-    bottom: 180px;
+    bottom: 155px;
     display: flex;
     justify-content: space-between;
     color: #FFF;
 }
 
-.owl-carousel .owl-nav .owl-prev span {
+.owl-carousel .owl-nav button {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background: rgba(255, 255, 255, 0.16) !important;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 70px;
-    background: rgba(255, 255, 255, 0.16);
-    border-radius: 50%;
+}
+
+.owl-carousel .owl-nav .owl-prev span {
+    font-size: 60px;
     object-fit: contain;
-    width: 60px;
-    height: 60px;
 }
 
 .owl-carousel .owl-nav .owl-next span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 70px;
-    background: rgba(255, 255, 255, 0.16);
-    border-radius: 50%;
+    font-size: 60px;
     object-fit: contain;
-    width: 60px;
-    height: 60px;
 }
 
 /*Main section end*/
