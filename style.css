@@ -903,18 +903,10 @@
         object-fit: cover;
     }
 
-    /* .first-movies .owl-carousel .owl-nav {
-        bottom: 31vh;
+    .owl-carousel .owl-nav .owl-prev {
+        position: relative;
+        left: 25px;
     }
-
-    .second-movies .owl-carousel .owl-nav {
-        bottom: 31vh;
-    } */
-
-    /* .first-movies .owl-carousel .owl-nav {
-        bottom: 10vh;
-        right: 50px;
-    } */
 
 
     .second-movies .owl-carousel .owl-nav {
